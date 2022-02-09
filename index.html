@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>MyAlarm</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="current-time">
+            <h2>Current Time</h2>
+
+            <div class="display-time">
+                <div class="hour"></div>
+                <div class="minute"></div>
+                <div class="seconds"></div>
+                <div class="session"></div>
+
+            </div>
+
+        </div>
+
+        <div class="set-alarm">
+            <h2>Set Alarm</h2>
+
+            <div class="setTime">
+                <!-- <input type="number" step="01" value="00" class="setHour"> -->
+                <select class="setHour">
+
+                </select>
+
+                <select class="setMinute">
+
+                </select>
+
+                <select class="setSeconds">
+
+                </select>
+
+                <!-- <div class="setMinute"></div>
+                <div class="setSeconds"></div> -->
+            </div>
+
+            <div class="btns">
+                <button class="btn1" type="button">SET ALARM</button>
+                <button class="btn2" type="button">RESET</button>
+
+            </div>
+
+            <audio id="xyz" src="./mixkit-game-notification-wave-alarm-987.wav" preload="auto"></audio>
+        </div>
+
+        <div class="alarm-time">
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
